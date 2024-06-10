@@ -1,0 +1,26 @@
+@import url(./styles.css/reset.css);
+@import url(./styles.css/header.css);
+@import url(./styles.css/banner.css);
+
+:root {
+    --cor-primaria: #F9F6EE;
+    --cor-primaria-rbg: 249, 246, 238;
+    --cor-secundaria: #DDB7A3;
+    --cor-terciaria: #C69681;
+    --cor-quarternaria: #D89D70;
+    --cor-quarternaria-rgb: 216, 157, 112;
+    --cor-do-footer: #593528; 
+    --cor-da-fonte-1: #000000;
+    --cor-da-fonte-2: #FFFFFFFF;
+    --cor-do-botao: #6F7356;
+    --fonte-principal: "Sora";
+    --fonte-secundaria: "Poppins", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
