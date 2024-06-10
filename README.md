@@ -17,4 +17,4 @@
  Você só precisará de um navegador para poder visualizar a página.
 
 ## GitHub Page
-https://lluizcallixtto.github.io/EcoBeauty/ 
+https://lluizcallixtto.github.io/EcoBeauty/
