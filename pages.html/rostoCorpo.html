@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     
-    <title>Cabelo</title>
+    <title>Rosto e Corpo</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -48,24 +48,24 @@
                 <div class="modal-pesquisa">
                     <div class="modal-pesquisa_container">
                         <h1 class="modal-pesquisa_titulo">Mais Recentes</h1>
-                        <button class="button-modal">X</button>
+                        <button class="button-modal-pesquisa"><img src="../icons/close.svg" alt="Icon de X"></button>
                     </div>
                     <hr/>
                     <ul class="modal_lista">
                         <li class="modal_lista-item">
-                            <img src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
                             <a class="modal_lista-link" href="">Hidratante</a>
                         </li>
                         <li class="modal_lista-item">
-                            <img src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
                             <a class="modal_lista-link" href="">Sérum anti-acne </a>
                         </li>
                         <li class="modal_lista-item">
-                            <img src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
                             <a class="modal_lista-link" href="">Base uniformizante vegana</a>
                         </li>
                         <li class="modal_lista-item">
-                            <img src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
                             <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
                         </li>
                     </ul>
@@ -73,15 +73,15 @@
                     <hr/>
                     <ul class="modal_lista">
                         <li class="modal_lista-item">
-                            <img src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
+                            <img class="lista-item-img" src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
                             <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
                         </li>
                         <li class="modal_lista-item">
-                            <img src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
+                            <img class="lista-item-img" src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
                             <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
                         </li>
                         <li class="modal_lista-item">
-                            <img src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
+                            <img class="lista-item-img" src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
                             <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
                         </li>
                     </ul>
@@ -89,20 +89,43 @@
             </div>
             
             <div class="modal-icon-contato">
-                <h2 class="modal-icon-titulo">Escolha uma opção para entar</h2>
-                <button class="button-modal">X</button>
-                <button class="modal-button">receber código de acesso para o e-mail</button>
-                <button class="modal-button">entrar com e-mail e senha</button>
+                <div class="modal-icon_container">
+                    <h2 class="modal-icon-titulo">Escolha uma opção para entar</h2>
+                    <button class="button-modal-contato"><img src="../icons/close.svg" alt="icon de X"></button>
+                </div>
+                <a href="#" class="contato_link">receber código de acesso para o e-mail</a>
+                <a href="#" class="contato_link">entrar com e-mail e senha</a>
             </div>
 
+            <dialog class="modal-carrinho">
+                <div class="modal-carrinho_cabecalho">
+                    <img class="modal-carrinho_img" src="../icons/Add Shopping Cart.svg" alt="Ícone de carrinho">
+                    <h2 class="modal-carrinho_titulo">Seu Carrinho</h2>
+                    <button class="button-modal-carrinho"><img src="../icons/cancel.svg" alt="Ícone de X"></button>
+                </div>
+                <p class="modal-carrinho_paragrafo">Ops! seu carrinho ainda está vazio</p>
+                <p class="modal-carrinho_paragrafo">vem cá descobrir nossas fórmulas e escolher a sua.</p>
+                <a href="#" class="modal-carrinho_link">escolher produtos</a>
+                <p class="modal-carrinho_paragrafo">uma sugestão para você</p>
+                <div class="modal-card">
+                    <img src="../img/Rectangle 278.svg" alt="Imagem do produto">
+                    <div class="modal-card_textos">
+                        <p class="modal-card_parafrafo">sérum hidratante 100ml</p>
+                        <p class="modal-card_preco"><b>R$45,90</b></p>
+                        <p class="modal-card_preco">ou 2x de R$22,95</p>
+                    </div>
+                </div>
+                <button class="modal-card_button"><img src="../icons/Buy.svg" alt="">Comprar</button>
+            </dialog>
+
             <div class="cabecalho-icons">
-                <button class="button-icon">
+                <button class="button-icon-contato">
                     <img class="button-icon-img" src="../icons/Contacts.svg" alt="Ícone de contatos">
                 </button>
                 <button class="button-icon">
                     <img class="button-icon-img" src="../icons/Heart.svg" alt="Ícone de coração">
                 </button>
-                <button class="button-icon">
+                <button class="button-icon-carrinho">
                     <img class="button-icon-img" src="../icons/Add Shopping Cart.svg" alt="Ícone de carrinho">
                 </button>
             </div>

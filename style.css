@@ -1,6 +1,8 @@
 @import url(./styles.css/reset.css);
 @import url(./styles.css/header.css);
 @import url(./styles.css/banner.css);
+@import url(./styles.css/rotina-cuidados.css);
+@import url(./styles.css/tipo-pele.css);
 
 :root {
     --cor-primaria: #F9F6EE;
@@ -9,10 +11,14 @@
     --cor-terciaria: #C69681;
     --cor-quarternaria: #D89D70;
     --cor-quarternaria-rgb: 216, 157, 112;
+    --cor-quinaria: #EADFD1;
     --cor-do-footer: #593528; 
     --cor-da-fonte-1: #000000;
     --cor-da-fonte-2: #FFFFFFFF;
     --cor-do-botao: #6F7356;
+    --cor-botao-2: #E8C4B8;
+    --cor-botao-3: #BD9A86;
+    --cor-botao-3-rgb: 185, 168, 111;
     --fonte-principal: "Sora";
     --fonte-secundaria: "Poppins", sans-serif;
 }
