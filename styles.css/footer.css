@@ -1,0 +1,144 @@
+.foot{
+    display: grid;
+    gap: 20px;
+    background-color: antiquewhite;
+}
+
+.notificacao-email{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 90px;
+    padding: 90px;
+}
+
+.bloco-1{
+    display: grid;
+    justify-self: end;
+    align-items: center;
+
+}
+
+.tit-notificacao{
+    font-size: 1.5em;
+}
+
+.text-notificacao{
+    font-size: 1.1em;
+}
+
+.escrever{
+    background-color: white;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    font-size: 1em;
+}
+
+.escrever::-webkit-search-cancel-button{
+    -webkit-appearance:none;
+    appearance: none;
+}
+
+.escrever:focus{
+    outline: none;
+}
+
+.bloco-2{
+    display: grid;
+    justify-self: start;
+    gap: 20px;
+}
+
+.termos{
+    display: flex;
+    gap: 20px;
+}
+
+.beleza{
+    height: 550px;
+}
+
+#paragrafo{
+    color: white;
+}
+
+#titulo{
+    font-size: 1em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+
+.foot-itens{
+    display: grid;
+    gap: 20px;
+    background-color: rgb(89, 53, 40);
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-foot{
+    display: flex;
+    gap: 150px;
+}
+
+.test{
+    display: flex;
+    height: 3em;
+}
+
+#flex{
+    display: flex;
+    gap: 20px;
+}
+
+.grid-int-1{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 2px;
+}
+
+.grid-int-1 p{
+    font-size: 0.8em;
+}
+
+#entrar-contato{
+    font-size: 1.2em;
+    color: rgb(207, 180, 174);
+    text-align: left;
+    align-self: end;
+}
+
+#endereco-e-info{
+    color: white;
+    font-size: 0.7em;
+}
+
+#redes-socias {
+    text-align: center;
+    position: relative;
+}
+
+#redes-socias::before{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 1px;
+    width: 44%;
+    position: absolute;
+    top: 50%;
+}
+
+#redes-socias::after{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 1px;
+    width: 44%;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}

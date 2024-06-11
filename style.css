@@ -3,6 +3,7 @@
 @import url(./styles.css/banner.css);
 @import url(./styles.css/rotina-cuidados.css);
 @import url(./styles.css/tipo-pele.css);
+@import url(./styles.css/footer.css);
 
 :root {
     --cor-primaria: #F9F6EE;
