@@ -1,6 +1,9 @@
 @import url(./styles.css/reset.css);
 @import url(./styles.css/header.css);
 @import url(./styles.css/banner.css);
+@import url(./styles.css/produtos.css);
+@import url(./styles.css/banner-dois.css);
+@import url(./styles.css/lancamento.css);
 @import url(./styles.css/rotina-cuidados.css);
 @import url(./styles.css/tipo-pele.css);
 @import url(./styles.css/footer.css);
@@ -13,6 +16,7 @@
     --cor-quarternaria: #D89D70;
     --cor-quarternaria-rgb: 216, 157, 112;
     --cor-quinaria: #EADFD1;
+    --cor-do-span: #BE5FCE;
     --cor-do-footer: #593528; 
     --cor-da-fonte-1: #000000;
     --cor-da-fonte-2: #FFFFFFFF;
@@ -22,6 +26,7 @@
     --cor-botao-3-rgb: 185, 168, 111;
     --fonte-principal: "Sora";
     --fonte-secundaria: "Poppins", sans-serif;
+    --fonte-terciaria: "Koho", sans-serif;
 }
 
 body {
