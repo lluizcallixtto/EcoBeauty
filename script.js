@@ -43,3 +43,17 @@ buttonIconCarrinho.onclick = function() {
 buttonClose.onclick = function() {
     modalCarrinho.close()
 }
+
+const lista = document.querySelectorAll('.menu-lista a');
+
+function ativarLink(item) {
+    const href = item.href;
+    const url = document.location.href;
+    if (href === url) {
+        // item.style.backgroundColor = 'black';
+        item.style.fontWeight = '600';
+        item.style.color = '#593528';
+    }
+}
+
+lista.forEach(ativarLink);

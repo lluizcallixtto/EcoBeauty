@@ -84,3 +84,37 @@
     padding: 10px 35px;
     border-radius: 38px;
 }
+
+@media (max-width: 1366px) {
+    .produtos-titulo {
+        font-size: 1.72rem;
+        padding: 35px 120px;
+    }
+
+    .container-card {
+        gap: 15px;
+    }
+
+    .produtos-card {
+        max-width: 390px;
+    }
+
+    .produtos-card-titulo {
+        font-size: 1.72rem;
+        padding: 5px;
+    }
+
+    .produtos-paragrafo {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .produtos-preco strong {
+        font-size: 1rem;
+    }
+
+    .produtos-card-button {
+        gap: 30px;
+        padding: 10px;
+    }
+}

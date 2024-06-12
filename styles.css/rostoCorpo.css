@@ -5,10 +5,12 @@
     gap: 80px;
     }
     
-#titulo{
+#titulo1{
     font-size: 2em;
     color: var(--cor-da-fonte-1);
     text-align: left;
+    align-items: center;
+    padding: 10px;
     }
     
 #tit-filtro{

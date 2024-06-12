@@ -9,6 +9,11 @@
     padding: 20px 0 0 0;
 }
 
+.tipo-pele {
+    background-color: #F5EFE8;
+    height: 495px;
+}
+
  nav ul {
     display: flex;
     justify-content: center;
@@ -42,8 +47,8 @@ nav ul li a {
     text-align: start;
     border-radius: 10px;
     padding: 10px;
-    border: 1px solid var(--cor-do-footer);
-    width: 600px;
+    border: 1px solid #BD9A86;
+    width: 532px;
     height: 53px;
     
 }

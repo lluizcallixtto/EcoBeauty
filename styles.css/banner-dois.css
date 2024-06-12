@@ -55,3 +55,65 @@
     border: 1px solid var(--cor-quarternaria);
     border-radius: 40px;
 }
+
+@media (max-width: 1366px) {
+    .banner-dois-titulo {
+        text-align: center;
+        font-size: 3.125rem;
+        font-weight: 700;
+        background-color: var(--cor-quarternaria);
+        padding: 10px;
+    }
+    
+    .container-banner-dois-card {
+        margin: 50px;
+        border: 2px solid var(--cor-quarternaria);
+        border-radius: 18px;
+    }
+    
+    .banner-dois-card {
+        display: grid;
+        grid-template-columns: 56% 40%;
+        justify-content: space-between;
+        max-height: fit-content;
+    }
+    
+    .banner-dois-card-img img {
+        width: 100%;
+        border-radius: 18px;
+    }
+    
+    .banner-dois-card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        gap: 50px;
+    }
+    
+    .banner-dois-texto {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 0 0;
+        gap: 50px;
+    }
+    
+    .banner-dois-texto-titulo {
+        font-size: 2.5rem;
+        font-weight: 700;
+        padding: 10px;
+    }
+    
+    .banner-dois-texto-paragrafo {
+        font-size: 1.5rem;
+    }
+    
+    .banner-dois-button {
+        font-size: 1.4375rem;
+        font-weight: 700;
+        padding: 20px 40px;
+        background-color: white;
+        border: 1px solid var(--cor-quarternaria);
+        border-radius: 40px;
+    }
+}

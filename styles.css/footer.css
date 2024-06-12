@@ -1,6 +1,7 @@
 .foot{
     display: grid;
     gap: 20px;
+    background-color: antiquewhite;
 }
 
 .notificacao-email{
@@ -15,6 +16,7 @@
     display: grid;
     justify-self: end;
     align-items: center;
+
 }
 
 .tit-notificacao{
@@ -22,16 +24,15 @@
 }
 
 .text-notificacao{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .escrever{
     background-color: white;
     height: 40px;
-    border-radius: 3px;
-    border: 1px solid gray;
-    font-size: 0.9em;
-    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    font-size: 1em;
 }
 
 .escrever::-webkit-search-cancel-button{
@@ -52,13 +53,10 @@
 .termos{
     display: flex;
     gap: 20px;
-    align-items: center;
 }
 
-.botao{
-    background-color: rgb(238, 158, 133);
-    padding: 10px 30px;
-    border-radius: 3px;
+.beleza{
+    height: 550px;
 }
 
 #paragrafo{
@@ -70,6 +68,7 @@
     color: white;
     margin-bottom: 1em;
 }
+
 
 .foot-itens{
     display: grid;
@@ -83,6 +82,11 @@
 .grid-foot{
     display: flex;
     gap: 150px;
+}
+
+.test{
+    display: flex;
+    height: 3em;
 }
 
 #flex{

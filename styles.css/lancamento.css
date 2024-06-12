@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
+    background-color: rgba(216, 157, 112, 0.69);
 }
 
 .card-lancamentos {
@@ -77,4 +78,94 @@
     background-color: var(--cor-do-botao);
     padding: 10px 35px;
     border-radius: 38px;
+}
+
+@media (max-width: 1366px) {
+    .produtos-lancamentos-titulo {
+        font-size: 1.72rem;
+        font-weight: 700;
+        padding: 20px 159px;
+    }
+    
+    .container-card-lancamentos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+        padding: 50px 0;
+    }
+    
+    .card-lancamentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        /* max-width: 362px; */
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .card-lancamentos {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .card-lacamento-img {
+        position: relative;
+    }
+    
+    .card-lacamento-img img {
+        object-fit: cover;
+        display: block;
+        min-height: 410px;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    
+    .card-lacamento-span,
+    .card-lacamento-descricao {
+        position: absolute;
+    }
+    
+    .card-lacamento-span {
+        background-color: var(--cor-do-span);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        top: -8px;
+        left: 0px;
+        z-index: 2;
+    }
+    
+    .card-lacamento-descricao {
+        font-size: 1.375rem;
+        color: white;
+        left: 10px;
+        z-index: 2;
+        top: 40px;
+    }
+    
+    .lacamento-card-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .lacamento-preco strong {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    
+    .lacamento-button {
+        display: flex;
+        align-items: center;
+        max-height: fit-content;
+        /* gap: 10px; */
+        background-color: var(--cor-do-botao);
+        padding: 10px 10px;
+        border-radius: 38px;
+    }
+    
 }
