@@ -1,0 +1,65 @@
+.pergunta-pele {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 70px 0 0 0 ;
+}
+
+.menu-lista {
+    padding: 20px 0 0 0;
+}
+
+ nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-da-fonte-1);
+}
+
+
+.link-pele {
+    padding: 10px;
+    background-color: var(--cor-quinaria);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 3rem;
+    padding: 30px 0 0 0;
+    justify-items: center;
+    
+}
+
+.grid-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--cor-da-fonte-2);
+    text-align: start;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid var(--cor-do-footer);
+    width: 600px;
+    height: 53px;
+    
+}
+
+.titulo-pele {
+    position: relative;
+    color: var(--cor-do-footer);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.grid-item-icon a {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-item-icon img {
+    width: 60%;
+}

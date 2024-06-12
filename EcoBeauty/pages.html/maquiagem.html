@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css/maquiagem.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    
+    <title>Rosto e Corpo</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-anuncio">
+            <a class="anuncio" href="/">frete grátis acima de R$129,90</a>
+        </div>
+        <div class="cabecalho-principal">
+            <div class="cabecalho-img">
+                <a href="../index.html">
+                    <img class="img-logo" src="../img/logo.png" alt="Logo EcoBeauty">
+                </a>
+            </div>
+            <nav class="cabecalho-lista">
+                <ul class="lista">
+                    <li class="lista-item">
+                        <a href="../pages.html/rostoCorpo.html" class="lista-item__link">Rosto e Corpo</a>
+                    </li>
+                    <li class="lista-item">
+                        <a href="../pages.html/cabelo.html" class="lista-item__link">Cabelo</a>
+                    </li>
+                    <li class="lista-item">
+                        <a href="../pages.html/maquiagem.html" class="lista-item__link">Maquiagem</a>
+                    </li>
+                    <li class="lista-item">
+                        <a href="../pages.html/rotina.html" class="lista-item__link">Monte sua Rotina</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="pesquisa_container">
+                <input type="search" class="cabecalho__pesquisa" placeholder="buscar produto">
+                
+                <div class="modal-pesquisa">
+                    <div class="modal-pesquisa_container">
+                        <h1 class="modal-pesquisa_titulo">Mais Recentes</h1>
+                        <button class="button-modal-pesquisa"><img src="../icons/close.svg" alt="Icon de X"></button>
+                    </div>
+                    <hr/>
+                    <ul class="modal_lista">
+                        <li class="modal_lista-item">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <a class="modal_lista-link" href="">Hidratante</a>
+                        </li>
+                        <li class="modal_lista-item">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <a class="modal_lista-link" href="">Sérum anti-acne </a>
+                        </li>
+                        <li class="modal_lista-item">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <a class="modal_lista-link" href="">Base uniformizante vegana</a>
+                        </li>
+                        <li class="modal_lista-item">
+                            <img class="lista-item-img" src="../icons/schedule.svg" alt="Ícone de relógio">
+                            <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
+                        </li>
+                    </ul>
+                    <h2 class="modal-pesquisa_titulo">Sugeridos</h2>
+                    <hr/>
+                    <ul class="modal_lista">
+                        <li class="modal_lista-item">
+                            <img class="lista-item-img" src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
+                            <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
+                        </li>
+                        <li class="modal_lista-item">
+                            <img class="lista-item-img" src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
+                            <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
+                        </li>
+                        <li class="modal_lista-item">
+                            <img class="lista-item-img" src="../icons/Rectangle 252.svg" alt="Ícone de relógio">
+                            <a class="modal_lista-link" href="">Máscara de cílios alongadora vegana</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="modal-icon-contato">
+                <div class="modal-icon_container">
+                    <h2 class="modal-icon-titulo">Escolha uma opção para entar</h2>
+                    <button class="button-modal-contato"><img src="../icons/close.svg" alt="icon de X"></button>
+                </div>
+                <a href="#" class="contato_link">receber código de acesso para o e-mail</a>
+                <a href="#" class="contato_link">entrar com e-mail e senha</a>
+            </div>
+
+            <dialog class="modal-carrinho">
+                <div class="modal-carrinho_cabecalho">
+                    <img class="modal-carrinho_img" src="../icons/Add Shopping Cart.svg" alt="Ícone de carrinho">
+                    <h2 class="modal-carrinho_titulo">Seu Carrinho</h2>
+                    <button class="button-modal-carrinho"><img src="../icons/cancel.svg" alt="Ícone de X"></button>
+                </div>
+                <p class="modal-carrinho_paragrafo">Ops! seu carrinho ainda está vazio</p>
+                <p class="modal-carrinho_paragrafo">vem cá descobrir nossas fórmulas e escolher a sua.</p>
+                <a href="#" class="modal-carrinho_link">escolher produtos</a>
+                <p class="modal-carrinho_paragrafo">uma sugestão para você</p>
+                <div class="modal-card">
+                    <img src="../img/Rectangle 278.svg" alt="Imagem do produto">
+                    <div class="modal-card_textos">
+                        <p class="modal-card_parafrafo">sérum hidratante 100ml</p>
+                        <p class="modal-card_preco"><b>R$45,90</b></p>
+                        <p class="modal-card_preco">ou 2x de R$22,95</p>
+                    </div>
+                </div>
+                <button class="modal-card_button"><img src="../icons/Buy.svg" alt="">Comprar</button>
+            </dialog>
+
+            <div class="cabecalho-icons">
+                <button class="button-icon-contato">
+                    <img class="button-icon-img" src="../icons/Contacts.svg" alt="Ícone de contatos">
+                </button>
+                <button class="button-icon">
+                    <img class="button-icon-img" src="../icons/Heart.svg" alt="Ícone de coração">
+                </button>
+                <button class="button-icon-carrinho">
+                    <img class="button-icon-img" src="../icons/Add Shopping Cart.svg" alt="Ícone de carrinho">
+                </button>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main class="grid-main">
+
+        <div>
+
+            <h2 id="titulo">filtros</h2>
+
+            <h3 class="tit-filtro-2">etapas</h3>
+            <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <h3 class="tit-filtro-2">etapas</h3>
+                <div class="filt">
+                    <input type="checkbox">
+                    <p>escolha suas necessidades</p>
+                    </div>
+                    <div class="filt">
+                    <input type="checkbox">
+                    <p>escolha suas necessidades</p>
+                    </div>
+                    <div class="filt">
+                    <input type="checkbox">
+                    <p>escolha suas necessidades</p>
+                    </div>
+                    <div class="filt">
+                    <input type="checkbox">
+                    <p>escolha suas necessidades</p>
+                    </div>
+            <h3 class="tit-filtro-2">etapas</h3>
+            <div class="filt">
+                    <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+
+                <h3 class="tit-filtro-2">etapas</h3>
+            <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+                <div class="filt">
+                <input type="checkbox">
+                <p>escolha suas necessidades</p>
+                </div>
+        </div>
+
+        <section>
+
+            <div class=" bloco-0">
+                <h1 id="titulo">maquiagem</h1>
+                <p id="texto">skdujfhvcvfcaskdjdhvc akufhdygfaskuhdcg cfka ushdvcfvcksjd hyv</p>
+            </div>
+
+            <div class="ordene">
+            <h2>todos os produtos</h2>
+            <h2>ordene</h2>
+            </div>
+
+
+            <div class="grid-maior">
+
+            <div class="card-produto">
+            <img class="foto-produto" src="../img/image 18.svg" alt="">
+            <h3 class="tit-produto"><b>Sérum Revitalizante</b></h3>
+            <p id="info-produto">sdyfh  ffwhuf s lkk l wldfyhfvygfsghgh aehsd  vdf</p>
+            <div id="preco-botao">
+            <p id="preco"><b>R$ 86,99</b></p>
+            <button class="botao-comprar">comprar</button>
+            </div>
+            </div>
+
+            <div class="card-produto">
+                <img class="foto-produto" src="../img/image 18.svg" alt="">
+                <h3 class="tit-produto"><b>Sérum Revitalizante</b></h3>
+                <p id="info-produto">sdyfh  ffwhuf s lkk l wldfyhfvygfsghgh aehsd  vdf</p>
+                <div id="preco-botao">
+                <p id="preco"><b>R$ 86,99</b></p>
+                <button class="botao-comprar">comprar</button>
+                </div>
+                </div>
+            
+            <div class="card-produto">
+                    <img class="foto-produto" src="../img/image 18.svg" alt="">
+                    <h3 class="tit-produto"><b>Sérum Revitalizante</b></h3>
+                    <p id="info-produto">sdyfh  ffwhuf s lkk l wldfyhfvygfsghgh aehsd  vdf</p>
+                    <div id="preco-botao">
+                    <p id="preco"><b>R$ 86,99</b></p>
+                    <button class="botao-comprar">comprar</button>
+                    </div>
+                    </div>
+
+            </div>
+
+            <div class="grid-maior">
+
+                <div class="card-produto">
+                <img class="foto-produto" src="../img/image 18.svg" alt="">
+                <h3 class="tit-produto"><b>Sérum Revitalizante</b></h3>
+                <p id="info-produto">sdyfh  ffwhuf s lkk l wldfyhfvygfsghgh aehsd  vdf</p>
+                <div id="preco-botao">
+                <p id="preco"><b>R$ 86,99</b></p>
+                <button class="botao-comprar">comprar</button>
+                </div>
+                </div>
+    
+                <div class="card-produto">
+                    <img class="foto-produto" src="../img/image 18.svg" alt="">
+                    <h3 class="tit-produto"><b>Sérum Revitalizante</b></h3>
+                    <p id="info-produto">sdyfh  ffwhuf s lkk l wldfyhfvygfsghgh aehsd  vdf</p>
+                    <div id="preco-botao">
+                    <p id="preco"><b>R$ 86,99</b></p>
+                    <button class="botao-comprar">comprar</button>
+                    </div>
+                    </div>
+                
+                <div class="card-produto">
+                        <img class="foto-produto" src="../img/image 18.svg" alt="">
+                        <h3 class="tit-produto"><b>Sérum Revitalizante</b></h3>
+                        <p id="info-produto">sdyfh  ffwhuf s lkk l wldfyhfvygfsghgh aehsd  vdf</p>
+                        <div id="preco-botao">
+                        <p id="preco"><b>R$ 86,99</b></p>
+                        <button class="botao-comprar">comprar</button>
+                        </div>
+                        </div>
+    
+                </div>
+                        
+
+
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+
+    <footer class="foot">
+
+        <section class="notificacao-email">
+
+            <div class="bloco-1">
+            <h3 class="tit-notificacao"><b>Receba notícias</b></h3>
+            <p class="text-notificacao">Fique por dentro de nossa <br> programação, artigos e notícias. </p>
+            </div>
+
+            <div  class="bloco-2">
+            <input class="escrever" type="search">
+            <input class="escrever" type="search">
+            <div class="termos">
+            <input type="checkbox">
+            <p>Concordo com os Termos de Privacidade</p>
+            <button class="botao">ENVIAR</button>
+            </div>
+            </div>
+
+
+        </section>
+
+
+        <div id="redes-socias">
+        <img src="./icons/Facebook F.svg" alt="">
+        <img src="./icons/Twitter.svg" alt="">
+        <img src="./icons/Instagram.svg" alt="">
+        </div>
+
+        <div class="foot-itens">
+
+        <div class="grid-foot">
+            
+            <div class="pagamento">
+            <h4 id="titulo">Pagamento</h4>
+                <img src="../icons/American Express.svg" alt="">
+                <img src="../icons/MasterCard.svg" alt="">
+                <img src="../icons/Visa.svg" alt="">
+                <img src="../icons/Discover Card.svg" alt="">
+                <img src="../icons/Gift Card.svg" alt="">
+            </div>
+
+            <div class="seguranca">
+
+            <h4 id="titulo" >Segurança</h4>
+
+            <div id="flex">
+
+            <div class="grid-int-1">
+                <img src="../icons/Lock.svg" alt="">
+                <p id="paragrafo" >site 100% <br> <b>seguro</b></p>
+            </div>
+
+            <div class="grid-int-1">
+                <img src="../icons/Protect.svg" alt="">
+                <p id="paragrafo" >site seguro <br> by <b>Google</b></p>
+            </div>
+
+            </div>
+            </div>
+
+            <div class="sustentabilidade">
+            <h4 id="titulo" >Sustentabilidade</h4>
+            <a href="/"><img src="../icons/Sustainability.svg" alt=""></a>
+            </div>
+
+            <a id="entrar-contato" href="/">sobre nós <br> entrar em contato <br> feedbacks</a>
+        </div>
+
+        <small id="endereco-e-info" >2024 - EcoBeuaty Comércio de Produtos de Beleza Natural LTDA. <br> Av. Mal. Mascarenhas de Morais, 3905, Recife, Imbiribeira, PE, CEP 51150-003 | CNPJ/MF 11.137.051/0406-41 IE 574.066.180.111</small>
+    </div>
+
+
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

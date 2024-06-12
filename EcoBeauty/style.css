@@ -1,0 +1,42 @@
+@import url(./styles.css/reset.css);
+@import url(./styles.css/header.css);
+@import url(./styles.css/banner.css);
+@import url(./styles.css/produtos.css);
+@import url(./styles.css/banner-dois.css);
+@import url(./styles.css/lancamento.css);
+@import url(./styles.css/rotina-cuidados.css);
+@import url(./styles.css/tipo-pele.css);
+@import url(./styles.css/rotina-sensibilidade.css);
+@import url(./styles.css/rotina-preocupacoes.css);
+@import url(./styles.css/rotina-seu-nome.css);
+@import url(./styles.css/footer.css);
+@import url(./styles.css/rostoCorpo.css);
+
+:root {
+    --cor-primaria: #F9F6EE;
+    --cor-primaria-rbg: 249, 246, 238;
+    --cor-secundaria: #DDB7A3;
+    --cor-terciaria: #C69681;
+    --cor-quarternaria: #D89D70;
+    --cor-quarternaria-rgb: 216, 157, 112;
+    --cor-quinaria: #EADFD1;
+    --cor-do-span: #BE5FCE;
+    --cor-do-footer: #593528; 
+    --cor-da-fonte-1: #000000;
+    --cor-da-fonte-2: #FFFFFFFF;
+    --cor-do-botao: #6F7356;
+    --cor-botao-2: #E8C4B8;
+    --cor-botao-3: #BD9A86;
+    --cor-botao-3-rgb: 185, 168, 111;
+    --fonte-principal: "Sora";
+    --fonte-secundaria: "Poppins", sans-serif;
+    --fonte-terciaria: "Koho", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}

@@ -1,0 +1,86 @@
+.produtos-titulo {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding: 45px 159px;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.produtos-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 514px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.produtos-imgs {
+    position: relative;
+    display: inline-block;
+}
+
+.produtos-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.produtos-icone {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.produtos-icone {
+    z-index: 1;
+    top: 12px;
+    right: 8px;
+    background-image: url(../icons/Following.svg);
+}
+
+.produtos-card-textos {
+    padding: 10px;
+}
+
+.produtos-card-titulo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.produtos-paragrafo {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.produtos-preco strong {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+
+.produtos-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+    padding: 10px;
+}
+
+.produtos-button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--cor-do-botao);
+    padding: 10px 35px;
+    border-radius: 38px;
+}

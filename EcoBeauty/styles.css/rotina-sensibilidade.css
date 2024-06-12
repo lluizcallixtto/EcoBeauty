@@ -1,0 +1,24 @@
+.pergunta-sensibilidade {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 70px 0 0 0 ;
+} 
+
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.perguntas-link {
+    font-weight: 500;
+    color: var(--cor-do-footer);
+    background-color: var(--cor-da-fonte-2);
+    padding: 25px;
+    margin: 40px;
+    border: 1px solid #BD9A86;
+    width: 245px;
+    text-align: center;
+    border-radius: 4px
+}

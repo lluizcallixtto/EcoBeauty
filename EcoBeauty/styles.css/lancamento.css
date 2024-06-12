@@ -1,0 +1,80 @@
+.produtos-lancamentos-titulo {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding: 20px 159px;
+}
+
+.container-card-lancamentos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.card-lancamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 362px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-lancamentos {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-lacamento-img {
+    position: relative;
+}
+
+.card-lacamento-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-lacamento-span,
+.card-lacamento-descricao {
+    position: absolute;
+}
+
+.card-lacamento-span {
+    background-color: var(--cor-do-span);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 28px;
+    top: -8px;
+    left: 0px;
+    z-index: 2;
+}
+
+.card-lacamento-descricao {
+    font-size: 1.375rem;
+    color: white;
+    bottom: 370px;
+    left: 10px;
+    z-index: 2;
+}
+
+.lacamento-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+}
+
+.lacamento-preco strong {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.lacamento-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--cor-do-botao);
+    padding: 10px 35px;
+    border-radius: 38px;
+}
