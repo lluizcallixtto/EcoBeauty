@@ -18,3 +18,4 @@
 
 ## GitHub Page
 https://lluizcallixtto.github.io/EcoBeauty/
+https://eco-beauty-six.vercel.app/ 
