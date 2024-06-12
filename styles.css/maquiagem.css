@@ -7,11 +7,16 @@
     
 #titulo1{
     font-size: 2em;
+    font-weight: 500;
     color: var(--cor-da-fonte-1);
     text-align: left;
     align-items: center;
     padding: 10px;
-    }
+}
+
+.todos-produtos {
+    font-weight: 600;
+}
     
 #tit-filtro{
     display: flex;

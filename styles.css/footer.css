@@ -1,7 +1,7 @@
 .foot{
     display: grid;
     gap: 20px;
-    background-color: antiquewhite;
+    background-color: #F9F6EE;
 }
 
 .notificacao-email{
@@ -21,6 +21,7 @@
 
 .tit-notificacao{
     font-size: 1.5em;
+    font-weight: 700;
 }
 
 .text-notificacao{

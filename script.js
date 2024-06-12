@@ -57,3 +57,23 @@ function ativarLink(item) {
 }
 
 lista.forEach(ativarLink);
+
+function ativarLinkMenu(item) {
+    const href = item.href;
+    const url = document.location.href;
+    if (href === url) {
+        item.classList.add('active');
+    }
+}
+
+function mudarCorAoClicar(event) {
+    // Remove a classe 'active' de todos os itens do menu
+    menuItems.forEach(item => item.classList.remove('active'));
+
+    // Adiciona a classe 'active' ao item clicado
+    event.target.classList.add('active');
+}
+
+    const menuItems = document.querySelectorAll('.lista-item__link');
+    menuItems.forEach(ativarLinkMenu);
+    menuItems.forEach(item => item.addEventListener('click', mudarCorAoClicar));
