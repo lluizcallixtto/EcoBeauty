@@ -5,10 +5,6 @@
     padding: 70px 0 0 0 ;
 } 
 
-.sensibilidade {
-    background-color: #F5EFE8;
-}
-
 .perguntas {
     display: flex;
     flex-direction: column;

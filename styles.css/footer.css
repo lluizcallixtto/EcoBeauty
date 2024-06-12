@@ -1,7 +1,6 @@
 .foot{
     display: grid;
     gap: 20px;
-    background-color: #F9F6EE;
 }
 
 .notificacao-email{
@@ -19,20 +18,20 @@
 }
 
 .tit-notificacao{
-    font-weight: 700;
     font-size: 1.5em;
 }
 
 .text-notificacao{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .escrever{
     background-color: white;
     height: 40px;
-    border-radius: 2px;
-    border: none;
-    font-size: 1em;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 0.9em;
+    padding: 10px;
 }
 
 .escrever::-webkit-search-cancel-button{
@@ -53,10 +52,13 @@
 .termos{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
-.beleza{
-    height: 550px;
+.botao{
+    background-color: rgb(238, 158, 133);
+    padding: 10px 30px;
+    border-radius: 3px;
 }
 
 #paragrafo{
@@ -68,7 +70,6 @@
     color: white;
     margin-bottom: 1em;
 }
-
 
 .foot-itens{
     display: grid;
@@ -82,11 +83,6 @@
 .grid-foot{
     display: flex;
     gap: 150px;
-}
-
-.test{
-    display: flex;
-    height: 3em;
 }
 
 #flex{

@@ -5,11 +5,6 @@
     padding: 70px 0 0 0 ;
 }
 
-.preocupacoes {
-    height: 710px;
-    background-color: #F5EFE8;
-}
-
 .titulo-preocupacao{
     position: relative;
     color: var(--cor-do-footer);
@@ -25,7 +20,7 @@
     text-align: start;
     border-radius: 10px;
     padding: 10px;
-    border: 1px solid #BD9A86;
+    border: 1px solid var(--cor-do-footer);
     width: 460px;
     height: 53px;
 }
