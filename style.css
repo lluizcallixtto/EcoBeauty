@@ -6,6 +6,9 @@
 @import url(./styles.css/lancamento.css);
 @import url(./styles.css/rotina-cuidados.css);
 @import url(./styles.css/tipo-pele.css);
+@import url(./styles.css/rotina-sensibilidade.css);
+@import url(./styles.css/rotina-preocupacoes.css);
+@import url(./styles.css/rotina-seu-nome.css);
 @import url(./styles.css/footer.css);
 
 :root {

@@ -1,0 +1,53 @@
+.container-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-pergunta {
+    padding: 25px;
+    width: 285px;
+    text-align: center;
+}
+
+.colocar-nome {
+    padding: 20px;
+    width: 235px;
+    text-align: center;
+}
+
+.colocar-nome::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.colocar-nome:focus {
+    outline: none;
+}
+
+.links {
+    padding: 20px 0 25px 0;
+    text-decoration: underline;
+}
+
+.pular-etapa {
+    color: var(--cor-botao-3);
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-enviar {
+    text-align: center;
+    width: 165px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #D89D70;
+}
+
+
+
