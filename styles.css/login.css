@@ -1,0 +1,12 @@
+.login {
+    background-color: #EADFD1;
+}
+
+#img-login {
+    width: 780px; /* Define a largura fixa da imagem */
+    object-fit: cover;
+}
+
+.fazer-login {
+    display: flex;
+}

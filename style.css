@@ -13,6 +13,7 @@
 @import url(./styles.css/maquiagem.css);
 @import url(./styles.css/rostoCorpo.css);
 @import url(./styles.css/footer.css);
+@import url(./styles.css/login.css);
 
 :root {
     --cor-primaria: #F9F6EE;
