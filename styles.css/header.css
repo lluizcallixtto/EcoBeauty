@@ -57,9 +57,9 @@
     border-bottom: solid 2px transparent;
 }
 
-.lista-item:hover {
+/* .lista-item:hover {
     border-color: rgb(192, 157, 92);
-}
+} */
 
 .lista-item__link {
     font-size: 0.78125rem;
