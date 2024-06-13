@@ -61,7 +61,10 @@ lista.forEach(ativarLink);
 function ativarLinkMenu(item) {
     const href = item.href;
     const url = document.location.href;
-    if (href === url) {
+    // if (href === url) {
+    //     item.classList.add('active');
+    // }
+    if (href === url || (href.includes('rotina.html') && url.includes('rotina'))) {
         item.classList.add('active');
     }
 }
