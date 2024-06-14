@@ -56,3 +56,22 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* Resetar o estilo padrão do input[type="number"] */
+input[type="number"] {
+    all: unset;
+    box-sizing: border-box;
+    --moz-appearance: textfield; /* Remove os controles de número no Firefox */
+}
+
+/* Remover os controles de número no Webkit (Chrome, Safari) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}

@@ -1,6 +1,6 @@
 .banner-dois-titulo {
     text-align: center;
-    font-size: 3.125rem;
+    font-size: 2rem;
     font-weight: 700;
     background-color: var(--cor-quarternaria);
     padding: 10px;
@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     margin: 30px;
-    gap: 270px;
+    gap: 26px;
 }
 
 .banner-dois-texto {
@@ -38,17 +38,17 @@
 }
 
 .banner-dois-texto-titulo {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     padding: 10px;
 }
 
 .banner-dois-texto-paragrafo {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
 }
 
 .banner-dois-button {
-    font-size: 1.4375rem;
+    font-size: 0.9rem;
     font-weight: 700;
     padding: 20px 40px;
     background-color: white;
@@ -56,7 +56,7 @@
     border-radius: 40px;
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .banner-dois-titulo {
         text-align: center;
         font-size: 3.125rem;
@@ -116,4 +116,31 @@
         border: 1px solid var(--cor-quarternaria);
         border-radius: 40px;
     }
+}
+
+
+@media (max-width: 768px) {
+    .banner-dois-titulo {
+        font-size: 1.5rem;
+    }
+
+    .banner-dois-card-container {
+
+        margin: 10px;
+        gap: 10px;
+    }
+
+    .banner-dois-texto {
+        padding: 1px 0 0 0;
+        gap: 6px;
+    }
+
+    .banner-dois-texto-titulo {
+        font-size: 1.4rem;
+    }
+
+    .banner-dois-texto-paragrafo {
+        font-size: 0.8rem;
+    }
+
 }

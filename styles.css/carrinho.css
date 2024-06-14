@@ -1,0 +1,118 @@
+.divisao {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.produto {
+    background-color: var(--cor-secundaria);
+}
+
+.cadastro {
+    margin: 20px;
+}
+
+.cadastro-cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.cadastro-cabecalho-img {
+    text-align: center;
+}
+
+.cadastro-cabecalho-img img {
+    width: 50%;
+}
+
+.cadastro-cabecalho-passos {
+    display: flex;
+    gap: 15px;
+}
+
+#Carrinho {
+    color: #593528;
+}
+
+#Informações {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #593528;
+}
+
+#Pagamentos {
+    color: #A5A68F;
+}
+
+.cadastro-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cadastro-informacoes-titulo {
+    padding: 10px;
+}
+
+.input-carrinho {
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #000000;
+    background-color: #F6F6F6;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-carrinho::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: start;
+}
+
+.input-carrinho:focus {
+    outline: none;
+}
+
+.cadastro-informacoes-mais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informacoes-mais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.quadradinho {
+    width: 35px;
+    height: 35px;
+    background-color: #D9D9D9;
+    border-radius: 12px;
+}
+
+.cadastro-informacoes-mais strong {
+    font-weight: 700;
+}
+
+.cadastro-checkbox {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.cadastro-frete-tipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-frete-tipo {
+    display: flex;
+    gap: 50px;
+} 

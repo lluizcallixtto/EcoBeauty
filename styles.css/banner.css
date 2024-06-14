@@ -5,13 +5,13 @@
 
 }
 .banner-textos {
-    width: 1800px;
+    width: 690px;
     display: flex;
     z-index: 1;
     position: absolute;
     align-items: flex-end;
     justify-content: flex-start;
-    gap: 351px;
+    gap: 100px;
 }
 
 .banner-textos-principal {
@@ -27,29 +27,29 @@
 }
 
 #lacamento {
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-decoration: underline;
     padding: 0 0 10px 0;
 }
 
 #ecobeauty {
-    font-size: 4.375rem;
-    padding: 50px 0;
+    font-size: 3.5rem;
+    padding: 10px 0;
 }
 
 #Garotas {
-    font-size: 2.5625rem;
-    padding: 50px 0;
+    font-size: 1.5rem;
+    padding: 10px 0;
 }
 
 #Make {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     padding: 50px 0;
 }
 
 #promocao-paragrafo {
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 
 #promocao-paragrafo strong {
@@ -68,144 +68,62 @@
     
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .banner-textos {
-        width: 1300px;
-        gap: 200px;
+        width: 1200px;
+        gap: 250px;
     }
 
     #lacamento {
-        font-size: 1.3rem;
-        padding: 0 0 20px 0;
+        font-size: 1.5rem;
+        padding: 0 0 10px 0;
     }
 
     #ecobeauty {
-        font-size: 3.7rem;
+        font-size: 4rem;
         padding: 30px 0;
     }
 
     #Garotas {
         font-size: 2rem;
-        padding: 30px 0;
+        padding: 20px 0;
     }
 
     #Make {
-        font-size: 1.8rem;
-        padding: 30px 0;
+        font-size: 2.5rem;
+        padding: 50px 0;
     }
 
     #promocao-paragrafo {
         font-size: 1.5rem;
     }
 
-    .promocao {
-        padding: 0 0 0px 0;
-    }
 }
 
-@media (max-width: 360) {
-    .banner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
+@media (max-width: 768px) {
     .banner-textos {
-        width: 1800px;
-        display: flex;
-        z-index: 1;
-        position: absolute;
-        align-items: flex-end;
-        justify-content: flex-start;
-        gap: 351px;
+        width: 600px;
+        gap: 22px;
     }
-    
-    .banner-textos-principal {
-        font-family: var(--fonte-terciaria);
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .banner-textos:last-child {
-        align-self: flex-end;
-    }
-    
+
     #lacamento {
-        font-size: 1.6rem;
-        text-decoration: underline;
-        padding: 0 0 10px 0;
+        font-size: 0.7rem;
     }
-    
+
     #ecobeauty {
-        font-size: 4.375rem;
-        padding: 50px 0;
+        font-size: 2rem;
     }
-    
+
     #Garotas {
-        font-size: 2.5625rem;
-        padding: 50px 0;
+        font-size: 0.9rem;
     }
-    
+
     #Make {
-        font-size: 2.5rem;
-        font-weight: 700;
-        padding: 50px 0;
+        font-size: 1.5rem;
     }
-    
+
     #promocao-paragrafo {
-        font-size: 2.5rem;
-    }
-    
-    #promocao-paragrafo strong {
-        font-weight: 700;
-    }
-    
-    #linha-prmocacao {
-       border-color: var(--cor-do-footer);
-    }
-    
-    .banner-imagem {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        
-    }
-    
-    @media (max-width: 1366px) {
-        .banner-textos {
-            width: 1300px;
-            gap: 200px;
-        }
-    
-        #lacamento {
-            font-size: 1.3rem;
-            padding: 0 0 20px 0;
-        }
-    
-        #ecobeauty {
-            font-size: 3.7rem;
-            padding: 30px 0;
-        }
-    
-        #Garotas {
-            font-size: 2rem;
-            padding: 30px 0;
-        }
-    
-        #Make {
-            font-size: 1.8rem;
-            padding: 30px 0;
-        }
-    
-        #promocao-paragrafo {
-            font-size: 1.5rem;
-        }
-    
-        .promocao {
-            padding: 0 0 0px 0;
-        }
+        font-size: 1rem;
     }
 }
+    

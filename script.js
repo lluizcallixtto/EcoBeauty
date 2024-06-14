@@ -77,6 +77,46 @@ function mudarCorAoClicar(event) {
     event.target.classList.add('active');
 }
 
-    const menuItems = document.querySelectorAll('.lista-item__link');
-    menuItems.forEach(ativarLinkMenu);
-    menuItems.forEach(item => item.addEventListener('click', mudarCorAoClicar));
+const menuItems = document.querySelectorAll('.lista-item__link');
+menuItems.forEach(ativarLinkMenu);
+menuItems.forEach(item => item.addEventListener('click', mudarCorAoClicar));
+
+const buttonProdutos = document.querySelectorAll('.produtos-button');
+const modalCarrinhoCompra = document.querySelector('.modal-carrinho-compra');
+const buttonCloseCompra = document.querySelector('.button-modal-carrinho-compra');
+
+buttonProdutos.forEach(button => {
+    button.onclick = function() {
+        modalCarrinhoCompra.showModal();
+        console.log(modalCarrinhoCompra);
+    };
+});
+
+buttonCloseCompra.onclick = function() {
+    modalCarrinhoCompra.close()
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const decrementButton = document.getElementById('menos');
+    const incrementButton = document.getElementById('mais');
+    const quantityInput = document.getElementById('quantidade');
+
+    decrementButton.addEventListener('click', () => {
+        let currentValue = parseInt(quantityInput.value);
+        if (currentValue > 1) {
+            quantityInput.value = currentValue - 1;
+        }
+    });
+
+    incrementButton.addEventListener('click', () => {
+        let currentValue = parseInt(quantityInput.value);
+        quantityInput.value = currentValue + 1;
+    });
+
+    quantityInput.addEventListener('input', () => {
+        let currentValue = parseInt(quantityInput.value);
+        if (isNaN(currentValue) || currentValue < 1) {
+            quantityInput.value = 1;
+        }
+    });
+});
