@@ -33,3 +33,7 @@
     text-decoration: none;
     background-color: var(--cor-botao-2);
 }
+
+#img-mulher {
+    width: 700px;
+}

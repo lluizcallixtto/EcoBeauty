@@ -1,7 +1,6 @@
 .cabecalho {
     display: grid;
     grid-template-columns: 1fr;
-    
 }
 
 .cabecalho-anuncio {
@@ -533,6 +532,7 @@ input[type="number"] {
 }
 
 @media (min-width: 1366px) {
+
     .anuncio {
         font-size: 0.8rem;
     }

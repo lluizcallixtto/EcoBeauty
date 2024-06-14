@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 3fr;
     padding: 60px 40px;
     gap: 80px;
-    }
+}
     
 #titulo1{
     font-size: 2em;
@@ -11,7 +11,7 @@
     text-align: left;
     align-items: center;
     padding: 10px;
-    }
+}
     
 #tit-filtro{
     display: flex;
@@ -78,11 +78,13 @@
 }
 
 #preco{
+    font-weight: 600;
     font-size: 1.4em;
 }
 
 .tit-produto{
-    font-size: 1.7em;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .botao-comprar{
@@ -90,5 +92,12 @@
     padding: 8px 25px;
     border-radius: 35px;
     text-align: center;
+}
+
+#titulo-filtro {
+    font-size: 2rem;
+    color: var(--cor-da-fonte-1);
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
