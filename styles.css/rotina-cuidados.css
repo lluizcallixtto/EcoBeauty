@@ -31,7 +31,7 @@
     border-radius: 30px;
     color: var(--cor-da-fonte-1);
     text-decoration: none;
-    background-color: var(--cor-botao-2);
+    background-color: var(--cor-do-botao);
 }
 
 #img-mulher {
